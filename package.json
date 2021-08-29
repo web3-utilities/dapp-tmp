@@ -1,5 +1,5 @@
 {
-  "name": "dapp",
+  "name": "@w3u/dapp",
   "description": "React dapp helper",
   "version": "0.1.0",
   "main": "dist/index.js",
