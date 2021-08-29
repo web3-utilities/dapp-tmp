@@ -1,0 +1,26 @@
+{
+  "name": "dapp",
+  "description": "React dapp helper",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "scripts": {
+    "lint": "eslint './src/**/*.ts' --quiet --fix",
+    "build": "tsc"
+  },
+  "author": "Aiden X",
+  "license": "MIT",
+  "dependencies": {
+    "@web3-react/core": "^6.1.9",
+    "bignumber.js": "^9.0.1",
+    "ethers": "^5.1.4",
+    "react": "^17.0.2",
+    "typescript": "^4.2.4"
+  }
+}
